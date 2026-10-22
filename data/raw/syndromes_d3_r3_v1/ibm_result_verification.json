@@ -1,0 +1,16 @@
+{
+  "backend": "ibm_marrakesh",
+  "checked_at_utc": "2026-10-20T18:14:08.296767+00:00",
+  "job_id": "dbbq3agc77vs7384te2g",
+  "shot_aligned_registers_match_ibm": true,
+  "shots_checked": {
+    "rep_d3_r3_b0_passive_natural": 625,
+    "rep_d3_r3_b0_passive_xq0_after0": 625,
+    "rep_d3_r3_b0_passive_xq0_after1": 625,
+    "rep_d3_r3_b0_passive_xq1_after0": 625,
+    "rep_d3_r3_b0_passive_xq1_after1": 625,
+    "rep_d3_r3_b0_passive_xq2_after0": 625,
+    "rep_d3_r3_b0_passive_xq2_after1": 625,
+    "rep_d3_r3_b1_passive_natural": 625
+  }
+}

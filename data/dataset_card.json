@@ -1,0 +1,33 @@
+{
+  "backend": "ibm_marrakesh",
+  "circuits": [
+    "rep_d3_r3_b0_passive_natural",
+    "rep_d3_r3_b1_passive_natural",
+    "rep_d3_r3_b0_passive_xq0_after0",
+    "rep_d3_r3_b0_passive_xq1_after0",
+    "rep_d3_r3_b0_passive_xq2_after0",
+    "rep_d3_r3_b0_passive_xq0_after1",
+    "rep_d3_r3_b0_passive_xq1_after1",
+    "rep_d3_r3_b0_passive_xq2_after1"
+  ],
+  "completed_at_utc": "2026-10-20T17:32:04.729349+00:00",
+  "job_id": "dbbq3agc77vs7384te2g",
+  "layout": [
+    110,
+    111,
+    98,
+    91,
+    92
+  ],
+  "rows": {
+    "full": 5000,
+    "test": 1000,
+    "train": 4000
+  },
+  "shots_per_circuit": 625,
+  "simulated_data": false,
+  "source": "IBM Quantum physical backend",
+  "split": "stratified by circuit_name",
+  "split_seed": 20261020,
+  "submitted_at_utc": "2026-10-20T17:15:23.048113+00:00"
+}
