@@ -1,0 +1,147 @@
+{
+  "frozen_at_utc": "2026-10-26T12:14:35.857901+00:00",
+  "seed": 2026,
+  "model_files": {
+    "m1.joblib": "e9f23ef66d058f0a9f895fdbe22edd980c77f238201700cdd1f957a00d26612f",
+    "m2.joblib": "87723f087efe867c3501d9d90db4dbb0f4c76147588fff73cf5254fe50d7b854",
+    "lookup.joblib": "94d454b42b8eef79af89cf26d1803aeb4058c7fd335b68d8b121a5520e17ee2e",
+    "m0.json": "38def7a5c058d4480d949e31da1bdea243d1f16f8b8ac6a032e8af0d4d060757",
+    "m2_slices_record_ids.json": "d7a82a0807dce7591c4cca0c64f713bbe0d1366da1cf05a2f850be6e17461381"
+  },
+  "data_hashes": {
+    "dataset_card.json": "f1f13a49a161e474225846f524e58714401e3d45b039fe2d447bf452c4ca5ff5",
+    "final_test_inputs.parquet": "99e219cc34f748434dd1b70cc78c5b4270d1d0d43f6937464644f04328831998",
+    "internal_test_1000.parquet": "02c61b3e5d9cd71fd0a6c7f1c15cb022f4325d8b62112e164c37a7606fda2f51",
+    "raw/syndromes_d3_r3_v1/ibm_result_verification.json": "a15866fb0309a216ed9bf9b1eba3792ac6a9e24e3a5367549307d0f3da389577",
+    "raw/syndromes_d3_r3_v1/manifest.json": "d0c8052620457305a8fda35ada504feaec516b6410c7921ab210ca067efa6870",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b0_passive_natural.npz": "2f58439ff51c82d2e554e32d29b321efaeaeaf06cd4c99239140845ddd14efb3",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b0_passive_natural.qpy": "01c18f60551cc852e419596a477c6769ca4e1cf7cb9d5a89fb0fa2b455af8c64",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b0_passive_xq0_after0.npz": "ee478715bd54c8e7e4cb0cbf2660d7d84cc041e6cf5dddf959399df81f849b37",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b0_passive_xq0_after0.qpy": "df711e5ba62eaa115fcca26e93c884a8395ebdca06347f456bce9fb585429839",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b0_passive_xq0_after1.npz": "5bbfcc1b53e90e20b7e0e57010b18b2a0ae6a1ed9acac554e582e0342c2de1c9",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b0_passive_xq0_after1.qpy": "dbc2aacf898d8e4daf74bfd72f54eeb7cb347934b0148475e8dedd1465dd7eae",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b0_passive_xq1_after0.npz": "8be543d355e7068f800d639dbd7cb0767531337eef643ff161ec6a92117e7ca1",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b0_passive_xq1_after0.qpy": "9101cfb3dc777b9967144138a60ae56406b26401215ad888ab13bf501c7bef35",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b0_passive_xq1_after1.npz": "f1d455aec9fbeaa39d4974a52ed0b2955b625078b72ccdc61060ff971d354fe4",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b0_passive_xq1_after1.qpy": "2057d7d6101ba1553425e9cc9248cb4c1b0b3ada574dc352a28d5243fdf2d806",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b0_passive_xq2_after0.npz": "c95a055a0a8a4172c7bc1ffadbfdaf22325a8520363d85ea2dc4d8aebd29b4d9",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b0_passive_xq2_after0.qpy": "323816dbd70cef6a1c73bb6f8ca13e644c7c11355084b1afac56448106140afb",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b0_passive_xq2_after1.npz": "7bf0668f0a6b7c2bf968c1ffd60848790aacba1be5443e3b068a70a6ead539a8",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b0_passive_xq2_after1.qpy": "82b49194aacc36fa1375e6031df345e74497c6e8fd72f9db9782a01a2ec507b3",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b1_passive_natural.npz": "515d65d97087d9b925dc44d8d8afd9c117437a38ff34be864f84a96d699566ce",
+    "raw/syndromes_d3_r3_v1/rep_d3_r3_b1_passive_natural.qpy": "d93f42e8b197d9b946b95369f7a650f0f27256bdfa32a009170dc963a6e9c9c4",
+    "train_4000.parquet": "203790f8c619e0a09ade1bc7ab35e650119d8224354f6ac30c477d97856d881d"
+  },
+  "config": {
+    "seed": 2026,
+    "boot_single": 1000,
+    "boot_paired": 2000,
+    "cv_folds": 5,
+    "matching_ratio_grid": [
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      2.0,
+      3.0
+    ],
+    "mlp_sizes": [
+      [
+        16
+      ],
+      [
+        32,
+        32
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        128,
+        64,
+        32
+      ]
+    ],
+    "mlp_alphas": [
+      0.0001,
+      0.01
+    ],
+    "mlp_max_epochs": 150,
+    "mlp_patience": 15,
+    "mlp_batch": 64,
+    "mlp_lr": 0.001,
+    "slices": {
+      "fit": 0.6,
+      "val": 0.2,
+      "route": 0.2
+    },
+    "difficulty": {
+      "trivial": "w == 0",
+      "easy": "w in {1, 2}",
+      "hard": "w >= 3"
+    },
+    "shots_partA": 250,
+    "shots_calibration": 100,
+    "qpu_budget_s": 600,
+    "qpu_reserve_s": 130,
+    "qpu_partA_cap_s": 40,
+    "qpu_calibration_cap_s": 30,
+    "transpile_optimization_level": 1,
+    "submit_to_qpu": true,
+    "backend_name": null,
+    "latency_single_shots": 300,
+    "latency_batch_repeats": 15
+  },
+  "m0": {
+    "ratio": 0.75
+  },
+  "m1": {
+    "config": {
+      "hidden": [
+        64,
+        64
+      ],
+      "alpha": 0.01,
+      "class_weight": true
+    },
+    "threshold": 0.8400000000000001,
+    "epochs": 58,
+    "n_params": 4801
+  },
+  "m2": {
+    "routing": {
+      "TRIVIAL": "IDENTITY",
+      "EASY": "NEURAL",
+      "HARD": "NEURAL"
+    },
+    "difficulty_thresholds": {
+      "trivial": "w == 0",
+      "easy": "w in {1, 2}",
+      "hard": "w >= 3"
+    },
+    "mwpm_ratio": 0.75,
+    "platt_a_b": [
+      0.8384677387653253,
+      -0.9933551275259521
+    ],
+    "neural_threshold": 0.5,
+    "slice_sizes": {
+      "fit_idx": 2400,
+      "val_idx": 800,
+      "route_idx": 800
+    }
+  },
+  "versions": {
+    "qiskit": "2.5.0",
+    "qiskit_ibm_runtime": "0.48.0",
+    "pymatching": "2.4.0",
+    "pandas": "2.3.2",
+    "numpy": "2.1.0",
+    "scipy": "1.18.0",
+    "sklearn": "1.7.1",
+    "matplotlib": "3.10.6",
+    "joblib": "1.5.3"
+  }
+}

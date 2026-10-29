@@ -1,0 +1,147 @@
+{
+  "generated_utc": "2026-10-26T12:27:23.444735+00:00",
+  "job_ids": {
+    "calibration": "dbfka8fgdj9s73bbr170",
+    "partA": "dbfkb9vpc3tc739nlkeg"
+  },
+  "files": {
+    "figures/qec_after_active_logical.png": {
+      "bytes": 104411,
+      "sha256": "a483216fc0ff0a2cf45661cd7ae2341cf5f28fd9f0ce49319fd4c2e6bd942d24"
+    },
+    "figures/qec_before_passive_logical.png": {
+      "bytes": 90675,
+      "sha256": "6f6ef59985726316fda6f6b7db4cb1e293eb126a511de2f105d37dd8736fa71b"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/backend_record.json": {
+      "bytes": 350,
+      "sha256": "7f608e9f4e74e4e350ae342f2cee85a73b7633172b473a9a6009ca3ececbd3d0"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/config.json": {
+      "bytes": 982,
+      "sha256": "d0eb92726ebf42600cfbf4268a0ae20cf4ec65f5e143ba7322dba088f3e9e2e7"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/figures/fig_benchmark.png": {
+      "bytes": 87018,
+      "sha256": "03c16d89ce2fd40e78d02eef1ec3b95446b4990f70d2edc360ec69a7cb0189b3"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/figures/fig_eda.png": {
+      "bytes": 86882,
+      "sha256": "81407f1aa5569ce006db35436ade7c2ef36bbf661deb32a7342eeb0fe80a35a7"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/figures/fig_endgoal.png": {
+      "bytes": 28992,
+      "sha256": "ecfdc1e131f1523ebd026278165060eabbc1ca57e403123ffc5d2a92838021b1"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/figures/fig_latency.png": {
+      "bytes": 53930,
+      "sha256": "18e5b2c43695a3f73118c789e74e7ecd8603d93ce771372134fa8d1d06537eb0"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/figures/fig_partA.png": {
+      "bytes": 42614,
+      "sha256": "8a479d9e310b0e0e265d40dea320b7a64aee83220ceef32891afbc46c4af26ae"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/figures/fig_reliability.png": {
+      "bytes": 73729,
+      "sha256": "d8f2e4d46a3dfa0ed901f6657c4123888020bd561b10b07a586600361e3c8eb7"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/figures/qec_active_transpiled.png": {
+      "bytes": 136855,
+      "sha256": "eaf6e38e3ab3a735d428b63d967bf060d69abed20f503f7e156877cf105bde25"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/figures/qec_passive_transpiled.png": {
+      "bytes": 127688,
+      "sha256": "7632ec6b4da29d922df430580203b2ffdcab45c5395b99f1410ab9999f0bea29"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/final_predictions_manifest.json": {
+      "bytes": 730,
+      "sha256": "198d07b402803e706638c759aadc195e03d69e10c6e409488e3599652bec27ef"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/findings.txt": {
+      "bytes": 2135,
+      "sha256": "8d46955e322e6afbeb4e71ef9844d1443bece57427f20b4ea68155fb7eb4fd77"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/frozen/lookup.joblib": {
+      "bytes": 568,
+      "sha256": "94d454b42b8eef79af89cf26d1803aeb4058c7fd335b68d8b121a5520e17ee2e"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/frozen/m0.json": {
+      "bytes": 86,
+      "sha256": "38def7a5c058d4480d949e31da1bdea243d1f16f8b8ac6a032e8af0d4d060757"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/frozen/m1.joblib": {
+      "bytes": 162812,
+      "sha256": "e9f23ef66d058f0a9f895fdbe22edd980c77f238201700cdd1f957a00d26612f"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/frozen/m2.joblib": {
+      "bytes": 163444,
+      "sha256": "87723f087efe867c3501d9d90db4dbb0f4c76147588fff73cf5254fe50d7b854"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/frozen/m2_slices_record_ids.json": {
+      "bytes": 23148,
+      "sha256": "d7a82a0807dce7591c4cca0c64f713bbe0d1366da1cf05a2f850be6e17461381"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/frozen/manifest.json": {
+      "bytes": 5333,
+      "sha256": "631e97b245e7def3f853ccb95338d2a124cb356967ef5edeb6bf6c66ee8b6ca0"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/partA/partA_raw_shots_dbfkb9vpc3tc739nlkeg.csv": {
+      "bytes": 596347,
+      "sha256": "ebb3b9fb857a0c1372cd16f80c8caaadf1aa0cae933fc0630c9c7e90064907cf"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/partA_circuit_metrics.csv": {
+      "bytes": 718,
+      "sha256": "ca9e3da074b83b53bb974c3948425d47ae5b9f2f38b3a093faa8c894f7f50d53"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/partA_per_configuration.csv": {
+      "bytes": 603,
+      "sha256": "5ba8de6daaa727e70cf6b3532e1f7d0054e743b873c0a12da465e325576a38c5"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/predictions_final_test_M0.csv": {
+      "bytes": 16923,
+      "sha256": "618122df07f32d2bb5e88c6aef9036766222f586d48de6b55c1c7503484a55ae"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/predictions_final_test_M1.csv": {
+      "bytes": 56416,
+      "sha256": "ffaf811b61fcb1d219e3bf877d78665a241ed80041d5fe9cab7dbe390e490c99"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/predictions_final_test_M2.csv": {
+      "bytes": 47987,
+      "sha256": "55d7b0d1b46cbf41191190d4129719665b34a36d0d7661a03ed88e0483264f3b"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/predictions_internal_test_M0.csv": {
+      "bytes": 8816,
+      "sha256": "0354bbe357fd65e8ca3dab44cbe27239c2060281ab2ef20a7821c66c0bf2da08"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/predictions_internal_test_M1.csv": {
+      "bytes": 28556,
+      "sha256": "c30a3c47589fc654e9a61495613f8b90714578cf041bea78806d072f1a12f3cb"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/predictions_internal_test_M2.csv": {
+      "bytes": 24299,
+      "sha256": "5f0172a77cf4d6d2e47ccdb0fa877929d379216bc07ed780958f20ec56b16ecf"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/qpu_ledger.jsonl": {
+      "bytes": 1855,
+      "sha256": "ce36c52e81209206791f6a9564177dbe7106fb7b5eee9ad9b6f5c41a9f1f35f5"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/qpy/partA_logical_circuits.qpy": {
+      "bytes": 37846,
+      "sha256": "db8891668ab18082f1f6044bc3c07697d2aaf2d4cedd4bd19920e7e775a80b00"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/qpy/partA_submitted_isa_circuits.qpy": {
+      "bytes": 156582,
+      "sha256": "77a74d24354420e2c5c8931d83bc0f38892a4f14614b7972441cb2521df16916"
+    },
+    "submissions/kaustubhkladda_Kaustubh_Ladda_FALL_FEST_2026/src/outputs/qpy/partA_submitted_order.json": {
+      "bytes": 424,
+      "sha256": "3566d897a1f15cabb605f23483c8ae419e505156dba027fbf7bd438566ba31de"
+    }
+  },
+  "qpu_seconds_total": 5.0,
+  "status": {
+    "hardware": "OK",
+    "partA": "OK",
+    "stretch": "NOT_ATTEMPTED"
+  }
+}

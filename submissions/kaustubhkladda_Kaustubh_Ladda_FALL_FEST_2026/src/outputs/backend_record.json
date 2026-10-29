@@ -1,0 +1,21 @@
+{
+  "backend": "ibm_fez",
+  "num_qubits": 156,
+  "line": [
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "roles": {
+    "data0": 22,
+    "anc0": 23,
+    "data1": 24,
+    "anc1": 25,
+    "data2": 26
+  },
+  "remaining_qpu_s": 590.0,
+  "remaining_source": "IBM service.usage()",
+  "recorded_utc": "2026-10-26T12:17:27.298930+00:00"
+}

@@ -1,0 +1,62 @@
+{
+  "seed": 2026,
+  "boot_single": 1000,
+  "boot_paired": 2000,
+  "cv_folds": 5,
+  "matching_ratio_grid": [
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    2.0,
+    3.0
+  ],
+  "mlp_sizes": [
+    [
+      16
+    ],
+    [
+      32,
+      32
+    ],
+    [
+      64,
+      64
+    ],
+    [
+      128,
+      64,
+      32
+    ]
+  ],
+  "mlp_alphas": [
+    0.0001,
+    0.01
+  ],
+  "mlp_max_epochs": 150,
+  "mlp_patience": 15,
+  "mlp_batch": 64,
+  "mlp_lr": 0.001,
+  "slices": {
+    "fit": 0.6,
+    "val": 0.2,
+    "route": 0.2
+  },
+  "difficulty": {
+    "trivial": "w == 0",
+    "easy": "w in {1, 2}",
+    "hard": "w >= 3"
+  },
+  "shots_partA": 250,
+  "shots_calibration": 100,
+  "qpu_budget_s": 600,
+  "qpu_reserve_s": 130,
+  "qpu_partA_cap_s": 40,
+  "qpu_calibration_cap_s": 30,
+  "transpile_optimization_level": 1,
+  "submit_to_qpu": true,
+  "backend_name": null,
+  "latency_single_shots": 300,
+  "latency_batch_repeats": 15
+}

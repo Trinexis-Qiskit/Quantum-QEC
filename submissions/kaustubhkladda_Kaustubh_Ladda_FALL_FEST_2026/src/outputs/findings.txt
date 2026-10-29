@@ -1,0 +1,18 @@
+FINDINGS
+1. Decoding versus no decoding: best LER 0.018 (M1 MLP) against raw LER 0.245; paired delta vs no-flip -0.227 [-0.253, -0.200] (A better (lower LER)).
+2. LER of every method on the internal test: No-flip control 0.245; Pattern lookup 0.020; M0 MWPM 0.028; M1 MLP 0.018; M2 MOR router 0.020.
+3. Best vs pattern-lookup control: delta -0.002 [-0.005, +0.000] -> NOT_STATISTICALLY_RESOLVABLE. The comparison with the strongest control is INCONCLUSIVE; the winner below is exploratory.
+4. Tie group by paired interval with M1 MLP: ['M0 MWPM', 'M2 MOR router']; by the latency tie-break the recommended decoder is M0 MWPM (batch-1 p50 30 us).
+5. Router: M2 vs M1 delta +0.002 (NOT_STATISTICALLY_RESOLVABLE); M2 vs M0 delta -0.008 (NOT_STATISTICALLY_RESOLVABLE). It avoided the neural network on 20.2% of internal-test shots, but at batch size 1 it is slower than the plain MLP (304 vs 116 us).
+6. Calibration: ECE on test 0.024 (M1 raw), 0.032 (M2 MLP raw), 0.016 (M2 after Platt).
+7. Unseen patterns: 5 internal-test shots (0.5%) had patterns not in train; the final test has 0.8% (drift observation, no labels).
+8. Part A (job dbfkb9vpc3tc739nlkeg, ibm_fez): pooled LER passive raw 0.254; passive+M2 0.026; active on-device 0.048; active minus passive raw -0.206 [-0.227, -0.184], active minus passive+M2 +0.022 [+0.010, +0.034].
+9. Stretch methods S1 and S2: NOT_ATTEMPTED. No quantum-advantage claim is made or supported.
+
+THREATS TO VALIDITY
+- Most labelled shots carry a deliberately injected X, so the fault mix is not natural noise.
+- Train and internal test come from one job; the final test is a later job (drift), and has no labels here.
+- Only bit-flip errors and a distance-3 code: this is a research prototype, not fault tolerance.
+- Only 127 distinct input patterns exist, so a lookup table is nearly as expressive as any model; differences of a few shots are noise at n=1000.
+- Part A uses 250 shots per circuit; per-configuration intervals are wide and the active-vs-passive comparison is inside one job only.
+- Latency is classical Python latency on a laptop, not a real-time control-system claim.

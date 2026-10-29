@@ -1,0 +1,9 @@
+circuit,depth,size,two_qubit_gates,mid_circuit_measure,resets,conditional_blocks,layout,hash
+passive / natural_b0,19,27,12,6,6,0,logical,dd2385ccf9e18d30
+active / natural_b0,22,30,12,6,6,3,logical,7f998046fb462275
+passive / xq1_after0,20,28,12,6,6,0,logical,ec01f5c1079cb1ff
+active / xq1_after0,23,31,12,6,6,3,logical,cae48bed6416db45
+passive / natural_b0 (transpiled),37,63,12,6,6,0,"phys [22, 23, 24, 25, 26]",746aa09eb258eb67
+active / natural_b0 (transpiled),40,66,12,6,6,3,"phys [22, 23, 24, 25, 26]",e14b38f918874bfd
+passive / xq1_after0 (transpiled),38,64,12,6,6,0,"phys [22, 23, 24, 25, 26]",f71a8c9cdcdfa31e
+active / xq1_after0 (transpiled),41,67,12,6,6,3,"phys [22, 23, 24, 25, 26]",76bf1e9224fbb7aa

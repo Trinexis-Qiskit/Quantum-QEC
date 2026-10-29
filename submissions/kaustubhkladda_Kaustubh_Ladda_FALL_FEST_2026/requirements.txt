@@ -1,0 +1,15 @@
+﻿qiskit==2.5.0
+qiskit-ibm-runtime==0.48.0
+pymatching==2.4.0
+pyarrow==24.0.0
+pandas==2.3.2
+numpy==2.1.0
+scipy==1.18.0
+scikit-learn==1.7.1
+matplotlib==3.10.6
+pylatexenc==2.10
+joblib==1.5.3
+ipykernel==6.31.0
+nbformat==5.10.4
+nbconvert==7.17.1
+jupyterlab==4.3.4
